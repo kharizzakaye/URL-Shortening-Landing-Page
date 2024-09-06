@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
 .centerText {
     text-align: center;
 }
@@ -56,13 +63,15 @@
 }
 
 #HeroTitle {
-    font-size: 80px;
+    font-size: 50px;
     padding-top: 80px;
+    text-align: center;
 }
 
 #HeroText {
-    font-size: 23px;
+    font-size: 18px;
     color: hsl(257, 7%, 63%);
+    text-align: center;
 }
 
 #GetStartedButton {
@@ -157,7 +166,7 @@
 }
 
 #FullyCustomizableCard {
-    margin-top: 90px;
+    margin-top: 45px;
 }
 
 
@@ -210,10 +219,81 @@
 .footer-navigation-section {
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
 }
 
 .social-media-icons i {
     width: 50px;
     margin-top: 12px;
     font-size: 30px;
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #HeroTitle {
+        font-size: 50px;
+    }
+    
+    #HeroText {
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #HeroTitle {
+        font-size: 60px;
+    }
+    
+    #HeroText {
+        font-size: 20px;
+    }
+
+    
+    #FullyCustomizableCard {
+        margin-top: 90px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #HeroTitle {
+        font-size: 60px;
+        text-align: start;
+    }
+    
+    #HeroText {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .footer-navigation-section {
+        text-align:unset;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #HeroTitle {
+        font-size: 60px;
+    }
+    
+    #HeroText {
+        font-size: 20px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #HeroTitle {
+        font-size: 80px;
+    }
+    
+    #HeroText {
+        font-size: 23px;
+    }
 }
